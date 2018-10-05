@@ -1,0 +1,3 @@
+intuit_oauth==1.0.2
+Django==2.1.2
+requests==2.19.1
