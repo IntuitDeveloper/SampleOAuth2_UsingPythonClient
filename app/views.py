@@ -119,7 +119,7 @@ def qbo_request(request):
     response = qbo_api_call(auth_client.access_token, auth_client.realm_id)
     
     if not response.ok:
-        return HttpResponse(' '.join([response.content, str(response.status_code)]))
+        return HttpResponse(' '.join([str(response.content), str(response.status_code)]))
     else:
         return HttpResponse(response.content)
 
