@@ -1,4 +1,4 @@
-[![Sample Banner](views/Sample.png)][ss1]
+[![Rate your Sample](views/Ratesample.png)][ss1][![Yes](views/Thumbup.png)][ss2][![No](views/Thumbdown.png)][ss3]
 
 ## Python OAuth2 and OpenID sample using Client
 
@@ -41,4 +41,6 @@ Launch URL `http://localhost:8000/app`
 3. Migration API to migrate tokens from OAuth1 to OAuth2
 4. Refresh and Revoke API for OAuth2/OpenID `bearer_token`
 
-[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleOAuth2_UsingPythonClient
+[ss1]: #
+[ss2]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=Yes&checkpoint=SampleOAuth2_UsingPythonClient&pageUrl=github
+[ss3]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=No&checkpoint=SampleOAuth2_UsingPythonClient&pageUrl=github
